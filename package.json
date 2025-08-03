@@ -8,8 +8,7 @@
   "exports": {
     "./package.json": "./package.json",
     "./component": "./src/component/index.ts",
-    "./utils/html": "./src/utils/html.ts",
-    "./utils/sleep": "./src/utils/sleep.ts"
+    "./utils": "./src/utils/index.ts"
   },
   "devDependencies": {
     "@happy-dom/global-registrator": "18.0.1",
