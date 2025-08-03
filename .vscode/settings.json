@@ -1,0 +1,22 @@
+{
+    "deno.enable": false,
+    "typescript.format.semicolons": "insert",
+    "typescript.preferences.importModuleSpecifier": "non-relative",
+    "typescript.preferences.quoteStyle": "double",
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features",
+        "editor.tabSize": 2,
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features",
+        "editor.formatOnSave": true,
+        "editor.insertSpaces": true,
+        "editor.tabSize": 2,
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features",
+        "editor.formatOnSave": true,
+        "editor.insertSpaces": true,
+        "editor.tabSize": 2,
+    },
+}

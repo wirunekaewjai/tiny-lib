@@ -1,0 +1,21 @@
+{
+  "name": "@wirunekaewjai/tiny-lib",
+  "type": "module",
+  "version": "0.0.0",
+  "files": [
+    "src/bundler.ts"
+  ],
+  "exports": {
+    "./package.json": "./package.json",
+    "./component": "./src/component/index.ts",
+    "./utils/html": "./src/utils/html.ts",
+    "./utils/sleep": "./src/utils/sleep.ts"
+  },
+  "devDependencies": {
+    "@happy-dom/global-registrator": "18.0.1",
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "5.8.3"
+  }
+}
