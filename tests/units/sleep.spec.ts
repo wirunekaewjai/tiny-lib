@@ -1,5 +1,5 @@
 import { expect, test } from "bun:test";
-import { sleep } from "../../src/utils/sleep";
+import { sleep } from "../../src";
 
 test("ok", async () => {
   const t = performance.now();

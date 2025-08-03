@@ -1,5 +1,5 @@
 import { expect, spyOn, test } from "bun:test";
-import { defineComponent, observeComponents } from "../../src/component";
+import { defineComponent, observeComponents } from "../../src/modules/component";
 
 test("mount and unmount", async () => {
   let value = 0;

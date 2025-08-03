@@ -3,12 +3,11 @@
   "type": "module",
   "version": "0.1.1",
   "files": [
-    "src/bundler.ts"
+    "src"
   ],
   "exports": {
     "./package.json": "./package.json",
-    "./component": "./src/component/index.ts",
-    "./utils": "./src/utils/index.ts"
+    ".": "./src/index.ts"
   },
   "devDependencies": {
     "@happy-dom/global-registrator": "18.0.1",
